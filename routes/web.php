@@ -22,3 +22,6 @@ Route::get('/Product-ECommerce', function () {
 Route::get('/Product-Digital-Wallet-Solution', function () {
     return view('productDigital-Wallet-Solution');
 });
+Route::get('/productCarpooling', function () {
+    return view('productCarpooling');
+});
